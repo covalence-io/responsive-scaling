@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0.5em;
+    font-size: 3.5vw;
+}
+
+.block {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    padding: 3em;
+    margin: 0.5em;
+    border: 1px solid blue;
+    float: left;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+@media screen and (min-width: 500px) {
+    body {
+        font-size: 18px;
+    }
+}
